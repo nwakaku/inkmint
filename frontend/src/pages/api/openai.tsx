@@ -5,7 +5,7 @@ const openaiHandler = async (req: NextApiRequest, res: NextApiResponse) => {
   if (req.method === 'POST') {
     try {
       const openai = new OpenAI({
-        apiKey: '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',
+        apiKey: '',
         dangerouslyAllowBrowser: true,
       })
 
